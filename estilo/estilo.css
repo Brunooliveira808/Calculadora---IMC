@@ -1,0 +1,83 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#container {
+    background: rgb(255, 207, 50);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width:356px;
+    border-radius: 20px;
+}
+
+#titulo {
+    margin: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+#traco {
+    border: 2px solid rgb(0, 0, 0);
+    width: 350px;
+    margin-bottom: 15px;
+}
+
+.dados_caixa {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.dados_caixa p {
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px 10px;
+    margin-right: 20px;
+    background: rgb(255, 255, 255);
+    border-radius: 5px;
+}
+
+.dados_caixa input {
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+}
+
+input#calcular {
+    margin-top: 5px;
+   width: 76%; 
+   color: rgb(0, 0, 0);
+   background-color: rgb(228, 228, 228);
+   border-radius: 5px;
+   border-color: rgb(53, 53, 53);
+   padding: 10px;
+}
+
+input#calcular:hover {
+    background-color: rgb(255, 216, 89);
+}
+
+#resultado {
+    padding: 0px 20px;
+    box-sizing: border-box;
+    background: rgb(255, 255, 255);
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    margin: 20px;
+    margin-top: 10px;
+    width: 76%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
